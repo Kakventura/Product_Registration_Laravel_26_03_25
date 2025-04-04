@@ -1,0 +1,62 @@
+/* Título */
+.titulo {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Boldonse", system-ui, sans-serif; /* Aplica a fonte Boldonse */
+}
+
+/* Estilo dos campos de input */
+.form-control {
+    width: 80%;
+    background-color: #202020 !important; /* Fundo cinza fixo */
+    color: white !important; /* Texto branco */
+    border: 1px solid #28a745;
+    /* Aplica a fonte Boldonse */
+}
+
+/* Placeholder do input */
+.form-control::placeholder {
+    color: #bfbfbf; /* Cor do texto placeholder */
+}
+
+/* Estilo das labels */
+.text-white {
+    margin-bottom: 5px;
+    font-family: "Boldonse", system-ui, sans-serif; /* Aplica a fonte Boldonse */
+}
+
+/* Foco nos campos de input */
+.form-control:focus {
+    background-color: #4a4a4a !important;
+    color: white !important;
+    border-color: #28a745;
+    box-shadow: none;
+}
+
+/* Estilo dos botões */
+.btn-outline-success {
+    border-color: #28a745;
+    color: #ffffff;
+    font-family: "Boldonse", system-ui, sans-serif; /* Aplica a fonte Boldonse */
+}
+
+/* Hover nos botões */
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+/* Alterando o fundo apenas do SweetAlert2 */
+.swal2-popup {
+    background-color: #202020 !important; /* Altera o fundo do SweetAlert2 */
+}
+
+/* Estilo do título e do texto dentro do SweetAlert2 */
+.swal2-title, .swal2-text {
+    font-family: "Boldonse", system-ui, sans-serif !important; /* Aplica a fonte Boldonse */
+    color: white !important; /* Altera a cor do texto para branco */
+}
