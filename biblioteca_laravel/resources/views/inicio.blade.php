@@ -10,8 +10,7 @@
         <!-- SweetAlert2 CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 
-        
-        <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/cadastrar.css') }}">
 
         <!-- Google Font: Boldonse -->
         <link href="https://fonts.googleapis.com/css2?family=Boldonse&display=swap" rel="stylesheet">
@@ -20,12 +19,23 @@
     </head>
     <body style="background-color:rgb(73, 73, 73);">
         <!-- Navbar -->
-        <nav class="navbar bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+                <!-- Navbar redirecionando corretamente -->
+                <a class="navbar-brand" href="/"> <!-- Corrigido para redirecionar à página inicial -->
                     <img src="{{ asset('images/icone.png') }}" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                     Cadastro de Produtos
                 </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/listar-produtos">Listar Produtos</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div class="container mt-4">

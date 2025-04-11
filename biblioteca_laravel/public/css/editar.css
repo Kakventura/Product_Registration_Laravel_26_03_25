@@ -1,0 +1,96 @@
+/* Fonte e título */
+.titulo {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Boldonse", system-ui, sans-serif;
+}
+
+/* Centraliza o formulário */
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estiliza os inputs */
+.form-control {
+    background-color: #202020 !important;
+    color: white !important;
+    border: 1px solid #28a745;
+
+}
+
+.form-control:focus {
+    background-color: #4a4a4a !important;
+    color: white !important;
+    border-color: #28a745;
+    box-shadow: none;
+}
+
+/* Labels */
+.form-label {
+    font-family: "Boldonse", system-ui, sans-serif;
+    color: white;
+}
+
+/* Botões */
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* SweetAlert2 */
+.swal2-popup {
+    background-color: #202020 !important;
+}
+
+.swal2-title, .swal2-text {
+    font-family: "Boldonse", system-ui, sans-serif !important;
+    color: white !important;
+}
+/* Estilo dos botões */
+.btn {
+    font-family: "Boldonse", system-ui, sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    color: white; /* Cor do texto sempre branca */
+}
+
+/* Botão salvar (verde) */
+.btn.btn-primary {
+    background-color: transparent;
+    border: 2px solid #28a745;
+    color: white;
+}
+
+.btn.btn-primary:hover {
+    background-color: #28a745;
+    transform: scale(1.03);
+}
+
+.btn.btn-primary:active {
+    transform: scale(0.98);
+}
+
+/* Botão excluir (vermelho) */
+.btn.btn-danger {
+    background-color: transparent;
+    border: 2px solid #dc3545;
+    color: white;
+}
+
+.btn.btn-danger:hover {
+    background-color: #dc3545;
+    transform: scale(1.03);
+}
+
+.btn.btn-danger:active {
+    transform: scale(0.98);
+}

@@ -1,0 +1,17 @@
+.clickable-row {
+    cursor: pointer; /* Mostra um cursor de mão */
+    transition: background-color 0.3s ease; /* Suaviza a mudança de cor */
+}
+.clickable-row:hover {
+    background-color: rgba(72, 190, 255, 0.2); /* Altera a cor de fundo ao passar o mouse */
+}
+
+.titulo {
+    color: #ffffff !important;
+    font-size: 35px !important;
+    font-weight: bold !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    text-align: center !important;
+    font-family: "Boldonse", system-ui, sans-serif !important;
+}
